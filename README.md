@@ -2,6 +2,8 @@
 
 Demo app done with React
 
+Public demo  https://jsanmor.github.io/currency-react-demo/
+
 ## Launch
 
 `npm i`
