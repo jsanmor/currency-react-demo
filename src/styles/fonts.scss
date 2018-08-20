@@ -1,0 +1,107 @@
+@font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-Light.woff2") format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-Light.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-LightItalic.woff2")
+        format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-LightItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-Book.woff2") format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-Book.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-BookItalic.woff2")
+        format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-BookItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-Medium.woff2") format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-MediumItalic.woff2")
+        format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-MediumItalic.woff")
+        format("woff");
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-Bold.woff2") format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: PostGrotesk;
+    src: url("./fonts/PostGrotesk/PostGrotesk-BoldItalic.woff2")
+        format("woff2"),
+      url("./fonts/PostGrotesk/PostGrotesk-BoldItalic.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/MaterialIcons/MaterialIcons-Regular.eot");
+    src: local("Material Icons"), local("MaterialIcons-Regular"),
+      url("./fonts/MaterialIcons/MaterialIcons-Regular.woff2")
+        format("woff2"),
+      url("./fonts/MaterialIcons/MaterialIcons-Regular.woff") format("woff"),
+      url("./fonts/MaterialIcons/MaterialIcons-Regular.ttf")
+        format("truetype");
+  }
+
+
+.material-icons {
+  font-family: Material Icons;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: var(--g-lh-xs);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+}
+.icon {
+  display: inline-block;
+  position: relative;
+  top: -0.05em;
+  font-size: inherit;
+  vertical-align: middle;
+}
+.icon,
+.icon:hover,
+.icon:active,
+.icon:focus,
+.icon:visited {
+  text-decoration: none;
+}
